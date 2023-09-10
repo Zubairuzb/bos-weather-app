@@ -9,7 +9,7 @@ const tempIcon =
 const ArrowDown =
   "https://res.cloudinary.com/dfbqtfoxu/image/upload/v1694085420/Weather/arrow-down_lswsg8.svg";
 
-const API_KEY = "ace7985557386b32c9d545d37d09dd8d";
+const API_KEY = "";
 
 function getWeatherData(city, units) {
   const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=${units}`;
